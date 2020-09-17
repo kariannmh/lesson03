@@ -1,0 +1,215 @@
+/* Global styles
+--------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+Body {
+    color: dimgray;
+    margin: 0;
+    padding: 0;
+    font-family: 'Neuton', serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+/* Footer with Contact Info/ unordered lists and list items for whole page
+--------------------------*/
+
+footer {
+    background:mediumpurple;
+    color: azure;
+    text-align: center;   
+}
+/*links in footer*/
+footer a:hover {
+    color: white;
+    background: mediumorchid;
+    }
+    
+ul {
+    list-style-type: none;
+    display: inline-table;
+    width: 100%;
+    text-align: justify;
+    
+}
+
+li {
+    font-family: 'dancing-script', cursive;
+    display: inline;
+    padding: 5px 10px;
+    margin: 0 auto 0 auto;
+    border: 1px white;
+
+}
+
+
+/* Headings in each Section
+--------------------------*/
+
+h1 {
+    margin: 0;
+    color:mediumpurple;
+    font-family:'Dancing Script', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px lightslategray;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+h3 {
+    margin: 0;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px lightslategray;
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    padding-left: 50px;
+    font-size: 25px;
+    line-height: 1;
+}
+
+h4 {
+    margin: 0;
+    font size: 55px;
+    margin: 0;
+    color: mediumorchid;
+    font-family: 'Nueton', serif;
+   
+   
+}
+
+h5 {
+    margin:0;
+    font-size: 18px;
+    color: plum; 
+}
+
+img {
+    width: 300px;
+    float: left;
+    margin: 2px;
+}
+
+/* Profile
+--------------------------*/
+header {
+    background: lavenderblush;
+    
+}
+/* LINKS IN HEADER
+--------------------------*/
+header a {
+    color: blueviolet;
+    background: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+header a:hover {
+    background: plum;
+}
+/* Projects
+---------------------------*/
+.projects {
+    background:rgb(229, 253, 253);
+}
+
+/* LINKS IN PROJECTS
+--------------------------*/
+.projects a {
+    color: blueviolet;
+    background: white;
+    text-decoration: none;
+    
+}
+
+.projects a:hover {
+    background: plum;
+}
+
+.projects .btn {
+    color: lavenderblush;
+    background:blueviolet;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+}
+
+/* Work Experience
+---------------------------*/
+.work-experience{
+    background: aliceblue;
+
+}
+
+.work-experience a{
+color: mediumpurple;
+background: whitesmoke;
+border: lightgray 1px;
+}
+
+/* Education
+----------------------------*/
+.ed {
+    text-align: center;
+}
+/* specifics
+----------------------------*/
+
+.content-wrap {
+    width:800px;
+    margin: 0px auto;
+    padding: 10px 20px;
+}
+
+.aboutme {
+    background: lavender;
+    color: slategrey;
+   
+}
+
+.clear {
+    clear: both;
+}
+
+/*GENERIC LINKS*/
+a {
+    color: white;
+    background:plum;
+    text-decoration: none;
+   
+}
+
+a:visited {
+    color: gray;
+}
+
+a:focus {
+    outline: 1px slateblue;
+
+}
+
+a:hover {
+    color: lavenderblush;
+}
+
+a:active {
+    color: white; 
+}
+
+
